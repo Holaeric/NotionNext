@@ -6,7 +6,7 @@ const BLOG = {
   BIO: '一个不太正常的人', // 作者简介
   LINK: 'https://spacegrey.top', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '43df8410a15f4dc9bd72c279cffd4228', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '304cd8a1a985417aa63352a6b9369cfe', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
 
   LANG: 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
