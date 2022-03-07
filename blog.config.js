@@ -1,12 +1,12 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  TITLE: process.env.NEXT_PUBLIC_TITLE || 'NotionNext BLOG', // 站点标题
-  DESCRIPTION: process.env.NEXT_PUBLIC_DESCRIPTION || '这是一个由NotionNext生成的站点', // 站点描述
-  AUTHOR: 'tangly1024', // 作者
-  BIO: '一个普通的干饭人🍚', // 作者简介
-  LINK: 'https://tangly1024.com', // 网站地址
+  TITLE: process.env.NEXT_PUBLIC_TITLE || '!', // 站点标题
+  DESCRIPTION: process.env.NEXT_PUBLIC_DESCRIPTION || 'Zeekim的Blog，由NotionNext生成', // 站点描述
+  AUTHOR: 'Zeekim', // 作者
+  BIO: '一个不太正常的人', // 作者简介
+  LINK: 'https://spacegrey.top', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '43df8410a15f4dc9bd72c279cffd4228', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
 
   LANG: 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
